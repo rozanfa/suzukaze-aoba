@@ -26,6 +26,7 @@ Program akan meminta input berupa operasi sederhana. Simbol dan operasi yang did
 - Pengurangan (-)
 - Perkalian (\*)
 - Pembagian (:)
+
   Berikan input bilangan-bilangan yang dipisah dengan simbol operasi di atas. Contoh input yang valid adalah seperti berikut
 
 ```
