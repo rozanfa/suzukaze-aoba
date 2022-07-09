@@ -38,4 +38,4 @@ Program akan menampilkan hasil dari operasi. Pengguna bisa melanjutkan kalkulasi
 = 204 / 4 + 49 - 9
 ```
 
-Tidak ada order of operation. Seluruh expresi dikerjakan dari kiri ke kanan. Berikut ini adalah contoh penggunaan program
+Tidak ada order of operation. Seluruh expresi dikerjakan dari kiri ke kanan.
