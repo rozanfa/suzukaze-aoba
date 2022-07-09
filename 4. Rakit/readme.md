@@ -10,6 +10,7 @@ Program yang saya buat adalah progaram kuis sederhana yang membaca soal dan kunc
 - Program meminta input jawaban kepada user berdasarkan pertanyaan dari `problem.txt`
 - Program menentukan apakah jawaban user benar atau salah
 - Program menuliskan riwayat pada `log.txt`
+- File `problem.txt` dan `solution.txt` bisa diganti sesuai keinginan pengguna
 
 ## Cara Menjalankan Program
 
@@ -34,4 +35,4 @@ ld -m elf_i386 -s -o amogus amogus.o
 
 ## Catatan Pengembang
 
-Program amogus didesain untuk jawaban sepanjang dua digit. Jawaban yang kurang atau lebih dari dua digit mungkit membuat program tidak berjalan dengan semestinya
+Program amogus didesain untuk jawaban sepanjang dua digit. Jawaban dan isi file `solution.txt` yang kurang atau lebih dari dua digit mungkit membuat program tidak berjalan dengan semestinya
