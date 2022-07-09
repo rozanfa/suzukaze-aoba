@@ -1,8 +1,9 @@
-# Pengenalan Program
+# Rakit
+## Pengenalan Program
 
 Program yang saya buat adalah progaram kuis sederhana yang membaca soal dan kunci jawaban dari file eksternal, meminta user menjawab soal, dan menentukan apakah jawaban user benar atau salah.
 
-# Cara Kerja Program
+## Cara Kerja Program
 
 - Program membaca file `problem.txt` kemudian menampilkannya ke console sebagai pertanyaan
 - Program membaca file `solution.txt` kemudian menyimpannya ke dalam variabel
@@ -10,7 +11,7 @@ Program yang saya buat adalah progaram kuis sederhana yang membaca soal dan kunc
 - Program menentukan apakah jawaban user benar atau salah
 - Program menuliskan riwayat pada `log.txt`
 
-# Cara menjalankan program
+## Cara Menjalankan Program
 
 - Assemble program tersebut dengan perintah
 
@@ -31,6 +32,6 @@ ld -m elf_i386 -s -o amogus amogus.o
 ./amogus
 ```
 
-# Catatan Pengembang
+## Catatan Pengembang
 
 Program amogus didesain untuk jawaban sepanjang dua digit. Jawaban yang kurang atau lebih dari dua digit mungkit membuat program tidak berjalan dengan semestinya
