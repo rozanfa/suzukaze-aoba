@@ -35,7 +35,7 @@ Jika program tidak ditambahkan ke PATH, maka ketikkan syntax berikut pada direct
 ## Command Yang Tersedia
 
 - `init` - Untuk membuat repository pada pwd
-- `commit <commit-msg>` - Untuk menambahkan kondisi repository saat ini menjadi versi baru
+- `commit <commit-msg>` - Untuk menambahkan kondisi repository saat ini ke dalam snapshot
 - `log` - Untuk melihat riwayat commit
 - `head <version-id>` - Untuk mengganti current directory ke versi yang sesuai
 - `tag <version-id> <nama-tag>` - Untuk membuat symbolic link version-id yang sesuai pada folder `.kud/refs/tags`
