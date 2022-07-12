@@ -89,7 +89,7 @@ int main(int argc, char** args){
         bool found = false;
 
         // Mencari stringToSearch dalam buffer secara multithreading
-        #pragma omp parallel for
+        #pragma omp parallel for shared(found) private(i) schedule(dynamic)
         for(i = 0; i<FILESIZE; i+=BLOCKSIZE){
             if (buffer[i] && !found){
                 // printf("Thread %d: %d----------------------------------------\n", omp_get_thread_num(), i);
@@ -101,7 +101,6 @@ int main(int argc, char** args){
                     {
                         if (!found){
                             found = true;
-                            count++;
                             displayFile(fd);
                         }
                     }
