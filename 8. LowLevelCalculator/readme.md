@@ -9,16 +9,16 @@ Kalkulator sederhana yang dibuat dengan menggunakan instruksi-instruksi tingkat 
 - Lakukan kompilasi seluruh file yang ada dengan perintah berikut
 
 ```
-gcc *.c -o main
+make
 ```
 
 - Jalankan program yang telah dikompilasi
 
 ```
-./main
+./calculator
 ```
 
-## Cara Mengguanakn Program
+## Cara Mengguankan Program
 
 Program akan meminta input berupa operasi sederhana. Simbol dan operasi yang didukung sebagai berikut
 

@@ -38,6 +38,7 @@ unsigned char isOperator(char c) {
 
 
 int main(){
+    printf("Enter an expression: ");
     char input[1000];
     gets(input);
     int result = 0;
