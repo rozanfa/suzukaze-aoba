@@ -74,7 +74,7 @@ int main(int argc, char** args){
             count += WEXITSTATUS(stat);
         }
         printf("-------------------------------------------------\n");
-        printf("Jumlah ditemukan: %d\n", count);
+        printf("Jumlah file ditemukan: %d\n", count);
     }
     else {
         // Untuk child
@@ -86,7 +86,7 @@ int main(int argc, char** args){
         int i = 0;
 
         omp_set_num_threads(4); // Jumlah thread yang digunakan
-        bool found = false;
+        int found = false;
 
         // Mencari stringToSearch dalam buffer secara multithreading
         #pragma omp parallel for shared(found) private(i) schedule(dynamic)
