@@ -12,6 +12,12 @@ Version Control System sederhana untuk version tracking suatu repository. VCS in
 make
 ```
 
+- Agar bisa di-execute, jalankan perintah berikut
+```
+chmod +x kud
+chmod +x src/command/*.sh
+```
+
 - Untuk menambahkan file ke PATH, jalankan perintah berikut
 
 ```
